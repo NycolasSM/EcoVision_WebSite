@@ -1,6 +1,9 @@
 :root {
     --color_primary: #aeaeae;
     --color_secondary: #aeaeae;
+    --color_border_primary: #115932;
+    --color_text_primary: #115932;
+    --color_text_secondary: #84da75;
 }
 
 * {
@@ -11,7 +14,7 @@
 
 header {
     width: 100%;
-    border: solid 3px #115932;
+    border: solid 3px var(--color_border_primary);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -27,9 +30,9 @@ header nav ul li {
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    text-shadow: 2px 0 #115932, -2px 2px #115932, -2px -2px #115932, 0 2px #115932,
-        3px 2px #115932, -1px -1px #115932, 2px -2px #115932, 2px 2px #115932;
-    color: #84da75;
+    text-shadow: 2px 0 var(--color_border_primary), -2px 2px var(--color_border_primary), -2px -2px var(--color_border_primary), 0 2px var(--color_border_primary),
+        3px 2px var(--color_border_primary), -1px -1px var(--color_border_primary), 2px -2px var(--color_border_primary), 2px 2px var(--color_border_primary);
+    color: var(--color_text_secondary);
 }
 
 .header__wrapper {
@@ -49,4 +52,32 @@ header nav ul li {
     width: 91px;
 }
 
-.header__logo {}
+.hero__container {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hero__container h3 {
+    color: var(--color_text_primary);
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.hero__container div {
+    display: flex;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.hero__img {
+    margin-top: 20px;
+    width: 900px;
+}
