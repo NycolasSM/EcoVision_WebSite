@@ -81,3 +81,51 @@ header nav ul li {
     margin-top: 20px;
     width: 900px;
 }
+
+.team__target {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team__target__flower__icon {}
+
+.team__target__line__1 {
+    margin-top: -5px;
+    margin-right: 60px;
+    margin-bottom: -5px;
+}
+
+.team__target__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 191.08px;
+    height: 102.53px;
+    background: radial-gradient(72.47% 94.12% at 50% 50%, #11931E 0%, #115932 100%);
+    border-radius: 45px;
+}
+
+.team__target__card span {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.team__target__team__photograph {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.team__member__photograph {
+    background-color: #aeaeae;
+    min-height: 400px;
+    min-width: 300px;
+}
