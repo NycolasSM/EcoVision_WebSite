@@ -8,8 +8,13 @@
 
 /* em ambiente de desenvolvimento */
 body {
-  padding-bottom: 1000px;
+  padding-bottom: 500px;
 }
+footer {
+  margin-top: 150px;
+}
+
+/* ======== */
 
 * {
   box-sizing: border-box;
@@ -198,9 +203,40 @@ header nav ul li {
 
 .team__target__targets__explanation {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   column-gap: 50px;
   width: 1000px;
   margin: 0 auto;
-  background-color: red;
+}
+
+.target__explanation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+}
+
+.target__explanation__line {
+  width: 5px;
+  height: 150px;
+  background-color: orange;
+}
+
+.target__explanation > div:first-child, .target__explanation > div:last-child {
+  width: 45%;
+}
+
+.target__explanation__text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.target__explanation__text__line {
+  height: 5px;
+  width: 100%;
+  background-color: orange;
 }
