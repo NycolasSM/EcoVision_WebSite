@@ -216,16 +216,18 @@ header nav ul li {
   justify-content: space-between;
   align-items: center;
   width: 700px;
+  width: 100%;
 }
 
 .target__explanation__line {
   width: 5px;
-  height: 150px;
+  height: 270px;
   background-color: orange;
 }
 
-.target__explanation > div:first-child, .target__explanation > div:last-child {
-  width: 45%;
+.target__explanation > div:first-child,
+.target__explanation > div:last-child {
+  width: 50%;
 }
 
 .target__explanation__text {
@@ -237,6 +239,20 @@ header nav ul li {
 
 .target__explanation__text__line {
   height: 5px;
-  width: 100%;
+  width: 30%;
   background-color: orange;
+}
+
+.target__explanation__image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.target__explanation__text h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
 }
