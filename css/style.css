@@ -209,6 +209,7 @@ header nav ul li {
   column-gap: 50px;
   width: 1000px;
   margin: 0 auto;
+  margin-top: -5px;
 }
 
 .target__explanation {
