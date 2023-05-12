@@ -13,6 +13,7 @@
 /* em ambiente de desenvolvimento */
 body {
   padding-bottom: 500px;
+  overflow-x: hidden;
 }
 
 footer {
@@ -327,5 +328,68 @@ header nav ul li {
   background-color: var(--background_brown_3);
 }
 
-.project__explanation.phase_2 {
+.project__explanation.phase_2 {}
+
+.more {
+  height: 500px;
+  width: 1250px;
 }
+
+.more div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.more div span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #9E3E07;
+}
+
+.more_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  row-gap: 50px;
+}
+
+.more_items span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #9E3E07;
+}
+
+.more_items div {
+  display: flex;
+  height: 100%;
+  width: 650px;
+  column-gap: 20px;
+}
+
+.background__plants {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+more_2 span {
+
+} 
