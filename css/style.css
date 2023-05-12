@@ -13,6 +13,7 @@
 /* em ambiente de desenvolvimento */
 body {
   background-color: #F6FEFF;
+  overflow-x: hidden;
 }
 /* ======== */
 
