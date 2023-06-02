@@ -144,6 +144,7 @@ header nav ul li {
 .team__member__photograph {
   background-color: #aeaeae;
   width: 220px;
+  border-radius: 10px;
 }
 
 .team__target__targets {

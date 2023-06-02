@@ -27,6 +27,10 @@
   opacity: 0;
 }
 
+main {
+  
+}
+
 @keyframes icon_fade {
   0% {
     opacity: 0.2;
