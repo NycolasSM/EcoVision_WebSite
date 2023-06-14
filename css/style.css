@@ -9,14 +9,21 @@
   --background_brown_2: #9f4c00;
   --background_brown_3: #a15200;
 }
-
+html{
+  scroll-behavior: smooth;
+}
+:target{
+  scroll-margin-top: 0px;
+}
 /* em ambiente de desenvolvimento */
 body {
   background-color: #F6FEFF;
   overflow-x: hidden;
 }
 /* ======== */
-
+a {
+  text-decoration: none;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -26,6 +33,7 @@ body {
 }
 
 header {
+  
   width: 100%;
   border-bottom: solid 3px var(--color_border_primary);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -408,7 +416,7 @@ footer {
   position: relative;
   margin-top: 50px;
   padding: 0;
-  background-color: #522004;
+  background-color: #550800;
   height: 300px;
 }
 

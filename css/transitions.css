@@ -1,3 +1,4 @@
+
 .loading__background {
   top: 0px;
   position: fixed;
@@ -8,6 +9,7 @@
   width: 100vw;
   background-color: #A6CE9C;
   animation: background_fade 7s linear forwards;
+  
 }
 
 .loading__icon {
@@ -70,6 +72,7 @@ main {
   100% {
     opacity: 0;
     transform: scale(1.5);
+    
   }
 }
 
@@ -88,6 +91,7 @@ main {
 
   100% {
     opacity: 0;
+    z-index: -1;
   }
 }
 
